@@ -4,10 +4,10 @@ function init() {
     const check = window.localStorage.getItem("name");
     if(check === null)
     {
-        location.href = "login.html";
+        location.href = "../login/login.html";
     }
     else{
-        location.href = "match.html";
+        location.href = "../match/match.html";
     }
 }
 

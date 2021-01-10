@@ -4,7 +4,7 @@ const rank = document.querySelector('.rank');
 const check = document.querySelector('.check');
 
 function Pass() {
-    location.href = "match.html";
+    location.href = "../match/match.html";
 }
 
 function CheckRank() {
@@ -13,31 +13,22 @@ function CheckRank() {
     console.log(inrank[0]);
     switch (inrank[0]){
         case '언':
-            numrank = '0';
+            numrank = '1';
             break;
         case '아':
-            numrank = '1'+inrank[1];
+            numrank = 6-inrank[1];
             break;
+        case '브':
+            numrank = 10-inrank[1];
+            break;    
         case '실':
-            numrank = '2'+inrank[1];
+            numrank = 19-inrank[1]*2;
             break;
         case '골':
-            numrank = '3'+inrank[1];
+            numrank = 32-inrank[1]*3;
             break;
         case '플':
-            numrank = '4'+inrank[1];
-            break; 
-        case '다':
-            numrank = '5'+inrank[1];
-            break;
-        case '마':
-            numrank = '6';
-            break;  
-        case '그':
-            numrank = '7';
-            break; 
-        case '첼':
-            numrank = '8';
+            numrank = 49-inrank[1]*4;
             break; 
     }
     window.localStorage.setItem("rank", numrank);
