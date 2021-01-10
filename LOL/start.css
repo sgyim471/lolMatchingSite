@@ -1,0 +1,84 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color:#fff;
+}
+
+.backgroundImage{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6) ),url("사진/배경.png");
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+.js-title{
+    position:fixed;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 540px;
+    font-size: 150px;
+    color:#fff;
+    }
+
+.img > h2{
+    font-weight:bolder;
+    position: fixed;
+    top: 305px;
+    margin-left: 690px;
+}
+/* 디스코드 글자 */
+.img > img{
+    width: auto; height: auto;
+    position: fixed;
+    max-width: 50px;
+    max-height: 50px;
+    top: 300px;
+    margin-left: 630px;
+}
+/* 디스코드 아이콘 */
+
+.opgg > h2{
+    font-weight:bolder;
+    position: fixed;
+    top: 305px;
+    margin-left: 965px;
+}
+/* 옵지 글자 */
+.opgg > img{
+    width: auto; height: auto;
+    position: fixed;
+    max-width: 50px;
+    max-height: 50px;
+    top: 300px;
+    margin-left: 900px;
+}
+/* 옵지 아이콘 */
+
+.null > img{
+    position:fixed;
+    width: auto; height: auto;
+    max-width: 80px;
+    max-height: 80px;
+    margin-top: 10px;
+    margin-left: 1620px;
+}
+/* 널 아이콘 */
+
+.lol > img{
+    position:fixed;
+    width: auto; height: auto;
+    max-width: 140px;
+    max-height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+/* 롤 아이콘 */
+
+
